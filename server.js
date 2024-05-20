@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3001;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-mongoose.connect('mongodb://localhost:27017/cdj-socialDB', {
+mongoose.connect('mongodb://acuspikecris:MOL628826@clustercris.shb0f7p.mongodb.net/cdj-socialDB', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
